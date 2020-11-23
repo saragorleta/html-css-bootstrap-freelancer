@@ -3,19 +3,23 @@
 }
 
 .debug .row [class*="col-"] {
-  background-color: pink;
+  /* background-color: pink; */
   border: 1px solid black;
 }
-
+.about .row [class*="col-"]  {
+  border: 1px solid black;
+}
+.about .row{
+  height:300px;
+}
 .debug .row{
 height: 150px;
 }
-.debug .row [class*="col-"] {
+.about .row [class*="col-"] {
   height: 100%;
 }
-
-.debug .row .col-lg-12{
-  height:300px;
+.debug .row [class*="col-"] {
+  height: 100%;
 }
 
 main{
@@ -25,9 +29,7 @@ main{
 .portfolio{
 
 }
-.about{
-  height:300px;
-}
+
 .contact{
 
 }
