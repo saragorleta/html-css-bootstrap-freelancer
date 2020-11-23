@@ -1,0 +1,12 @@
+.container{
+  width:1170px;
+}
+
+.debug .row [class*="col-"] {
+  background-color: pink;
+  border: 1px solid black;
+}
+
+.debug .row{
+height: 150px;
+}
