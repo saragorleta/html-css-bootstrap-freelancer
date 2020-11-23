@@ -6,35 +6,28 @@
   /* background-color: pink; */
   border: 1px solid black;
 }
-.about [class*="col-"]  {
+.about .row [class*="col-"]  {
   border: 1px solid black;
   background-color: red;
 }
-.about{
-  height:300px;
-}
+/* DA TOGLIERE */
 .debug .row{
 height: 150px;
 }
-.about .row [class*="col-"] {
-  height: 100%;
+.about .row{
+  height:300px;
 }
+/* DA TOGLIERE */
 .debug .row [class*="col-"] {
   height: 100%;
 }
-
+.about .row [class*="col-"] {
+  height:100%;
+}
 main{
   margin-top:10%;
   margin-bottom: 5%;
 }
-.portfolio{
-
-}
-
-.contact{
-
-}
-
 .mt_5{
   margin-top: 5%;
 }
