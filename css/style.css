@@ -1,33 +1,48 @@
 .container{
   width:1170px;
+  margin:auto;
 }
-
 .debug .row [class*="col-"] {
   /* background-color: pink; */
   border: 1px solid black;
 }
-.about .row [class*="col-"]  {
-  border: 1px solid black;
-  background-color: red;
+/* DA TOGLIERE */
+.debug [class*='col-'] {
+  height:150px;
 }
 /* DA TOGLIERE */
-.debug .row{
-height: 150px;
-}
-.about .row{
-  height:300px;
-}
-/* DA TOGLIERE */
-.debug .row [class*="col-"] {
-  height: 100%;
-}
-.about .row [class*="col-"] {
-  height:100%;
-}
 main{
   margin-top:10%;
   margin-bottom: 5%;
 }
 .mt_5{
   margin-top: 5%;
+}
+.bg_turquoise{
+  background-color:#53FFBD;
+}
+.bg_darkblue{
+  background-color:rgb(26, 75, 99);
+}
+.bg_blue{
+  background-color:rgb(82, 127, 150);
+}
+.bg_violet{
+  background-color: rgb(191, 82, 133);
+}
+.bg_clearblue{
+  background-color: rgb(50, 157, 229);
+}
+.bg_black{
+  background-color: black;
+}
+.bg_green{
+  background-color:rgb(72, 160, 78);
+}
+
+.bg_nightblue{
+  background-color:rgb(59, 51, 221);
+}
+.bg_pink{
+  background-color:rgb(229, 213, 232);
 }
