@@ -10,3 +10,28 @@
 .debug .row{
 height: 150px;
 }
+.debug .row [class*="col-"] {
+  height: 100%;
+}
+
+.debug .row .col-lg-12{
+  height:300px;
+}
+
+main{
+  margin-top:10%;
+  margin-bottom: 5%;
+}
+.portfolio{
+
+}
+.about{
+  height:300px;
+}
+.contact{
+
+}
+
+.mt_5{
+  margin-top: 5%;
+}
