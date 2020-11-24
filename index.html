@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bootstrap freelancer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link rel="stylesheet" href="css/framework.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -13,20 +14,39 @@
   <!-- header -->
   <header>
     <!-- nav -->
-    <div id="nav">
-      <div class="container bg_darkblue debug">
-        <div class="row">
-          <div class="col-xs-12 col-lg-6"></div>
-          <div class="col-xs-12 col-lg-6"></div>
-        </div>
-      </div>
+  <nav class="navbar navbar-default">
+    <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Start Bootstrap</a>
     </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">portfolio</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+
+  </div><!-- /.container -->
+</nav>
       <!-- jumbotron -->
       <div id="jumbotron">
-        <div class="container debug bg_turquoise">
+        <div class="container text-center bg_turquoise">
           <div class="row">
-          <div class="col-xs-12"></div>
-          </div>
+          <div class="col-xs-12">
+            <img src="img/profile.png" alt="profile">
+            <h1>start bootstrap</h1>
+            <div class="cl_star">
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>graphic artist - web-designer - illustrator</h3>
+        </div>
+      </div>
         </div>
       </div>
   </header>
@@ -35,78 +55,121 @@
   <main>
     <!-- portfolio -->
     <div id="portfolio">
-      <div class="container debug">
+      <div class="container">
         <div class="row">
-          <div class="col-xs-12 text-center">Portfolio</div>
+          <div class="col-xs-12 text-center">
+            <h2>Portfolio</h2>
+            <div class="cl_star">
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-sm-6 col-lg-3">
+          <div class="col-xs-12 col-sm-6 col-lg-4">
             <img class="img_portfolio" src="img/cabin.png" alt="cabin">
           </div>
-          <div class="col-xs-12 col-sm-6 col-lg-3">
+          <div class="col-xs-12 col-sm-6 col-lg-4">
             <img class="img_portfolio" src="img/cake.png" alt="cake">
           </div>
-          <div class="col-xs-12 col-sm-6 col-lg-3">
+          <div class="col-xs-12 col-sm-6 col-lg-4">
             <img class="img_portfolio" src="img/circus.png" alt="circus">
           </div>
-        </div>
-      </div>
-      <div class="container debug">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-lg-3"></div>
-          <div class="col-xs-12 col-sm-6 col-lg-2">
+
+          <div class="col-xs-12 col-sm-6 col-lg-4">
             <img class="img_portfolio" src="img/game.png" alt="game">
           </div>
-          <div class="col-xs-12 col-sm-6 col-lg-2">
+          <div class="col-xs-12 col-sm-6 col-lg-4">
             <img class="img_portfolio" src="img/safe.png" alt="safe">
           </div>
-          <div class="col-xs-12 col-sm-6 col-lg-2">
+          <div class="col-xs-12 col-sm-6 col-lg-4">
             <img class="img_portfolio" src="img/submarine.png" alt="submarine">
           </div>
-          <div class="col-xs-12 col-sm-6 col-lg-3"></div>
+
+        </div>
         </div>
       </div>
-    </div>
+
   <!-- fine portfolio -->
   <!-- about -->
   <div id="about">
-    <div class="container bg_turquoise debug mt_5">
+    <div class="container bg_turquoise mt_5">
       <div class="row">
-        <div class="col-xs-12 col-sm-2"></div>
-        <div class="col-xs-12 col-sm-4"></div>
-        <div class="col-xs-12 col-sm-4"></div>
-        <div class="col-xs-12 col-sm-2"></div>
+        <div class="col-xs-12 text-center">
+          <h2>About</h2>
+          <div class="cl_star">
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </div>
       </div>
     </div>
   </div>
   <!-- fine sezione about -->
   <!-- inizio sezione contact -->
   <div id="contact">
-    <div class="container debug mt_5">
+    <div class="container mt_5">
       <div class="row">
-        <div class="col-xs-12 col-sm-4"></div>
-        <div class="col-xs-12 col-sm-4"></div>
-        <div class="col-xs-12 col-sm-4"></div>
+        <div class="col-xs-12 text-center">
+          <h2>Contact</h2>
+          <div class="cl_star">
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="col-xs-12 ">
+          <div class="form">
+            <input type="text" class="form-control" placeholder="Name">
+            <input type="text" class="form-control" placeholder="Address">
+            <input type="text" class="form-control" placeholder="Phone number">
+            <textarea class="form-control" rows="3">Message</textarea>
+
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
+
   </main>
  <!-- fine sezione main -->
  <!-- inizio footer -->
   <footer>
     <div id="top_footer">
-      <div class="container bg_blue debug">
+      <div class="container text-center bg_blue">
         <div class="row">
-          <div class="col-xs-12 col-sm-5"></div>
-          <div class="col-xs-12 col-sm-2"></div>
-          <div class="col-xs-12 col-sm-5"></div>
+          <div class="col-xs-12 col-sm-4">
+            <h4>Location</h4>
+            <p>2215 John Daniel Drice Clark, MO</p>
+            <p>54243</p>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <h4>Around the web</h4>
+            <div class="cl_icon">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-google-plus-g"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <h4>About freelancer</h4>
+            <p>Freelancer is free to use, opern source</p>
+            <p>Bootstrap them created by</p><span>Start Bootsrap</span>
+          </div>
         </div>
       </div>
     </div>
     <div class="bottom_footer">
-      <div class="container bg_darkblue debug">
+      <div class="container text-center bg_darkblue">
         <div class="row">
-          <div class="col-xs-12"></div>
+          <div class="col-xs-12">
+            Copiright <i class="far fa-copyright"></i> your website 2019
+          </div>
         </div>
       </div>
 

@@ -37,3 +37,13 @@ main{
   background-size:cover;
   border-radius: 20px;
 }
+/* footer */
+
+.cl_icon i {
+  background-color:rgb(82, 127, 150);
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  width: 10%;
+}
