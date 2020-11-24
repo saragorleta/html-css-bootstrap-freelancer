@@ -19,7 +19,7 @@
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Start Bootstrap</a>
       </div>
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right text-white">
           <li><a href="#">portfolio</a></li>
           <li><a href="#">about</a></li>
           <li><a href="#">contact</a></li>
@@ -58,33 +58,43 @@
         </div>
         <div class="row mt_2">
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="img_portfolio" src="img/cabin.png" alt="cabin">
+            <div class="layover">
+              <img class="img_portfolio" src="img/cabin.png" alt="cabin">
+            </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="img_portfolio" src="img/cake.png" alt="cake">
+            <div class="layover">
+              <img class="img_portfolio" src="img/cake.png" alt="cake">
+            </div>
           </div>
-          <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="img_portfolio" src="img/circus.png" alt="circus">
+            <div class="col-xs-12 col-sm-6 col-lg-4">
+              <div class="layover">
+                <img class="img_portfolio" src="img/circus.png" alt="circus">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 pt_2">
+              <div class="layover">
+                <img class="img_portfolio" src="img/game.png" alt="game">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 pt_2">
+              <div class="layover">
+                <img class="img_portfolio" src="img/safe.png" alt="safe">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 pt_2">
+              <div class="layover">
+                <img class="img_portfolio" src="img/submarine.png" alt="submarine">
+              </div>
+            </div>
           </div>
-
-          <div class="col-xs-12 col-sm-6 col-lg-4 pt_2">
-            <img class="img_portfolio" src="img/game.png" alt="game">
-          </div>
-          <div class="col-xs-12 col-sm-6 col-lg-4 pt_2">
-            <img class="img_portfolio" src="img/safe.png" alt="safe">
-          </div>
-          <div class="col-xs-12 col-sm-6 col-lg-4 pt_2">
-            <img class="img_portfolio" src="img/submarine.png" alt="submarine">
-          </div>
-
-        </div>
         </div>
       </div>
 
   <!-- fine portfolio -->
   <!-- about -->
   <div id="about" class="bg_turquoise ">
-    <div class="container  mt_5">
+    <div class="container mt_5">
       <div class="row">
         <div class="col-xs-12 text-center">
           <h2 class="tx_upper tx_white">About</h2>
@@ -93,14 +103,24 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          <div class="lorem_left">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
         </div>
         <div class="col-xs-12 col-sm-6">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          <div class="lorem_right">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+        </div>
+        <div class="col-xs-12 text_center">
+          <div class="btn_about text-center">
+            <button type="button" class="btn btn-def"><i class="fas fa-download"></i>Download</button>
+          </div>
+        </div>
         </div>
       </div>
     </div>
-  </div>
+
   <!-- fine sezione about -->
   <!-- inizio sezione contact -->
   <div id="contact">
@@ -114,14 +134,24 @@
         </div>
         <div class="col-xs-12 ">
           <div class="form mt_2">
-            <input type="text" class="form-control" placeholder="Name">
-            <input type="text" class="form-control" placeholder="Address">
-            <input type="text" class="form-control" placeholder="Phone number">
-            <textarea class="form-control" rows="3">Message</textarea>
-            <button type="button" class="btn btn-info">Send</button>
+            <div class="form-group border">
+              <label for="inputAddress">name</label>
+            </div>
+            <div class="form-group border">
+              <label for="inputAddress2">email address</label>
+            </div>
+              <div class="form-group border">
+                <label for="inputAddress">phone number</label>
+              </div>
+            <div class="form-group">
+              <label for="inputAddress2">message</label>
+            </div>
+            <button type="button" class="btn my_btn">Send</button>
+          </div>
+      </form>
           </div>
 
-        </div>
+
       </div>
     </div>
   </div>
@@ -135,8 +165,8 @@
         <div class="row">
           <div class="col-xs-12 col-sm-4">
             <h4 class="tx_upper tx_white">Location</h4>
-            <p class="tx_white">2215 John Daniel Drice Clark, MO</p>
-            <p class="tx_white">54243</p>
+            <small class="tx_white">2215 John Daniel Drice Clark, MO</small>
+            <small class="tx_white">54243</small>
           </div>
           <div class="col-xs-12 col-sm-4">
             <h4 class="tx_upper tx_white">Around the web</h4>
@@ -150,8 +180,12 @@
           </div>
           <div class="col-xs-12 col-sm-4">
             <h4 class="tx_upper tx_white">About freelancer</h4>
-            <p class="tx_white">Freelancer is free to use, opern source</p>
-            <p class="tx_white">Bootstrap them created by</p><span class="tx_turquoise">Start Bootsrap</span>
+            <div class="tex_down pb_5">
+              <small class="tx_white">Freelancer is free to use, opern source</small>
+              <small class="tx_white">Bootstrap them created by</small>
+              <small class="tx_turquoise">Start Bootsrap</small>  
+            </div>
+
           </div>
         </div>
       </div>
@@ -159,8 +193,11 @@
     <div class="bottom_footer">
       <div class="container text-center bg_darkblue">
         <div class="row">
-          <div class="col-xs-12">
-            Copiright <i class="far fa-copyright"></i> your website 2019
+          <div class="col-xs-12 mt_2 mb_2">
+            <div class="copyright">
+              Copiright <i class="far fa-copyright"></i> your website 2019
+            </div>
+
           </div>
         </div>
       </div>
