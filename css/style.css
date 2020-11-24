@@ -12,14 +12,54 @@
 }
 /* DA TOGLIERE */
 main{
-
   margin-bottom: 5%;
 }
-#portfolio{
-
+/* Riutilizzabili */
+.clw_star:after,
+.clw_star:before{
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  border-radius:2px;
+  background-color: white;
+  margin: 0 20px;
+}
+.clb_star:after,
+.clb_star:before{
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  border-radius:2px;
+  background-color: black;
+  margin: 0 20px;
+}
+.clw_star i{
+  color:white;
+  font-size: 30px;
+}
+.clb_star i{
+  color:black;
+  font-size: 30px;
 }
 .mt_5{
   margin-top: 5%;
+}
+.mb_5{
+  margin-bottom: 5%;
+}
+.mt_2{
+  margin-top:2%;
+}
+.mb_2{
+  margin-bottom:2%;
+}
+.pt_5{
+  padding-top:5%;
+}
+.pb_5{
+  padding-bottom: 5%;
 }
 .bg_turquoise{
   background-color:#53FFBD;
@@ -31,14 +71,40 @@ main{
   background-color:rgb(82, 127, 150);
 }
 
+/* header */
+{
+  height:90px;
+}
+/* nav */
+.navbar-brand{
+  text-transform:uppercase;
+  font-size: 20px;
+}
+.navbar-nav{
+  text-transform:uppercase;
+  font-size:15px;
+}
+
+
+/* jumbotron */
+#jumbotron h1{
+  color:white;
+  text-transform: uppercase;
+}
+#jumbotron h3{
+  color:white;
+  text-transform: uppercase;
+}
+
+/* portfolio  */
 .img_portfolio{
   width: 100%;
-
   background-size:cover;
   border-radius: 20px;
 }
-/* footer */
+/* end portfolio */
 
+/* footer */
 .cl_icon i {
   background-color:rgb(82, 127, 150);
   border-radius: 50%;
@@ -47,3 +113,4 @@ main{
   color: white;
   width: 10%;
 }
+/* end footer */
